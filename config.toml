@@ -1,0 +1,48 @@
+##########################################
+# Site Settings
+
+baseURL = "https://jibingeo.com/"
+title = "I'm Jibin George"
+languageCode = "en"
+hasCJKLanguage = false
+# Copyright information (Markdown supported)
+copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
+
+# Name of theme
+theme = "cactus"
+
+[params]
+  gravatar = "hello@jibingeo.com"
+  description = "I ❤️ #JavaScript, #microcontroller, #keyboard,  #vim"
+
+[[params.social]]
+  name = "github"
+  link = "https://github.com/jibingeo"
+
+[[params.social]]
+  name = "email"
+  link = "hello@jibingeo.com" # no need for "mailto:" at the start
+
+[[params.social]]
+  name = "linkedin"
+  link = "https://www.linkedin.com/in/jibingeo"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+# [[menu.main]]
+# name = "Tags"
+# url = "/tags"
+# weight = 3
+# 
+# [[menu.main]]
+# name = "About"
+# url = "/about"
+# weight = 4
